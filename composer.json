@@ -1,0 +1,29 @@
+{
+    "name": "yii2framework/yiiframe-logistics",
+    "description": "A logistics SDK.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yii2framework"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3|^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiiframe\\logistics\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "yiiframe\\logistics\\ServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5",
+        "mockery/mockery": "^1.2"
+    }
+}
